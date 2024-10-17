@@ -1,3 +1,10 @@
+/*
+ * Copyright (c) 2024 Abimael Jimenez
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+`default_nettype none
+
 module half_adder(
 Data_in_A,
 Data_in_B,
@@ -74,8 +81,8 @@ wire [3:0] A,B;
 wire [7:0] prod;
 
 // Assigning values to output wires
-assign uio_out = 8'b11111111;
-assign uio_oe = 8'b11111111;
+assign uio_out = 0;
+assign uio_oe = 0;
     
 // Extracting bits from input
 assign A = ui_in[3:0];
