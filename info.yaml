@@ -1,5 +1,5 @@
 # Tiny Tapeout project information
-project:
+project:        "multiplier"
   title:        "multiplier2"      # Project title
   author:       "Abimael jimenez"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
